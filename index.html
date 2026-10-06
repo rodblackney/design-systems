@@ -186,7 +186,8 @@ button{font:inherit;color:inherit}
 .panel--short{min-height:38px;flex-direction:row;align-items:center}
 
 .thread{display:grid;gap:12px;width:min(100% - 40px,420px);padding-block:32px;font-size:13px;line-height:1.35}
-.bubble{max-width:85%;padding:14px 16px;border-radius:15px}
+.bubble{width:fit-content;max-width:85%;padding:14px 16px;border-radius:15px}
+.app-chat .bubble--user{margin-left:auto}
 .bubble--user{justify-self:end;background:var(--color-grey-900)}
 .bubble--assistant{border:1px solid #0808081a}
 .step{font:400 11px/1.3 var(--font-mono);color:var(--color-content-muted);display:flex;gap:8px}
